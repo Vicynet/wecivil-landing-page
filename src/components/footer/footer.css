@@ -1,0 +1,35 @@
+.btn-dark {
+    border-radius: 0px 0px 10px 10px !important;
+    border: none !important;
+    color:  #ffffff;
+    outline: none !important;
+    background-color: #0062FF !important;
+}
+
+.btn-dark:hover {
+    background-color: #1660d6 !important;
+}
+
+.form-control {
+    border: 1px solid #FFFFFF !important;
+    border-radius: 0px 0px 0px 0px !important;
+    border-bottom: 1px solid #0062FF !important;
+    outline: none !important;
+}
+
+.footer-header {
+    font-weight: bold;
+    font-family : 'IBM Plex Sans';
+    font-size: 1.6rem;
+    line-height: 38px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .footer-header {
+        font-size: 1.3rem;
+        line-height: 25px;
+        /* text-align: justify; */
+        font-weight: 500;
+    }
+}

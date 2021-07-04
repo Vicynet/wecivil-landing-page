@@ -1,0 +1,27 @@
+.logo {
+    text-align: right !important;
+}
+
+.logo-text {
+    padding-top: 8%;
+    line-height: 165%;
+}
+
+.wecivil {
+    color: "#0062FF" !important;
+    font-size: 4rem;
+}
+
+.card-text {
+    color: "#0062FF" !important;
+}
+
+.tagline {
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo, .tagline, .logo-text {
+        text-align: center !important;
+    }
+}
